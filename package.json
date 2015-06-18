@@ -1,7 +1,7 @@
 {
   "name": "remember",
   "version": "0.0.1",
-  "description": "Declarative state/prop transitions in React",
+  "description": "Simple webapp to remember things",
   "main": "main.js",
   "dependencies": {
     "babel": "^5.5.8",
@@ -15,8 +15,13 @@
     "reflux": "^0.2.8",
     "webpack": "^1.9.11"
   },
+
+  "devDependencies": {
+    "nws": "^0.6.1"
+  },
+
   "scripts": {
-    "start": "nws -d build -p 3000 & webpack -w"
+    "serve": "nws -d build -p 3000 & webpack -w"
   },
   "author": "",
   "license": "ISC"
